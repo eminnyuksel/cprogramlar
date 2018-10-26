@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+   int x;
+   int ardisik = 0;
+
+   for (x=0;x<=40;x=x+1)
+{
+    ardisik = ardisik + x;
+}
+   printf("0 dan 40 a kadar olan sayilarin toplami %d dir", ardisik);
+   return 0;
+}
