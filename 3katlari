@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main ()
+{
+int x = 3;
+int sayi;
+
+printf("Bir Sayi Giriniz:");scanf("%d",&sayi);
+
+if(sayi%3==0)
+{
+    printf("Sayiniz 3 un katidir");
+}
+
+else
+{
+printf("Sayiniz 3 un kati degildir");
+}
+return 0;
+
+}
