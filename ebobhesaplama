@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int main() {
+
+int sayi1,sayi2,kucuksayi;
+int i , sonuc = 1;
+
+printf("Birinci Sayiyi Giriniz: "); scanf("%d", &sayi1);
+printf("Ikinci Sayiyi Giriniz: "); scanf("%d", &sayi2);
+
+if (sayi1<sayi2)
+{
+    kucuksayi = sayi1;
+}
+
+else
+{
+    kucuksayi = sayi2;
+}
+
+for(i = 2; i <= kucuksayi; i++){/*i kucuk sayidan kucukse i yi artir */
+    if(sayi1 % i == 0 && sayi2 % i == 0)
+
+    sonuc = i;
+
+}
+
+printf("%d,%d EBOB = %d",sayi1,sayi2,sonuc);
+
+
+
+
+
+
+return 0;
+}
