@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#define PI 3.14
+
+
+int main()
+{
+int yaricap;
+float cevre,alan;
+
+printf("Dairenin yaricapini giriniz: "); scanf("%d", &yaricap);
+
+cevre = 2*PI*yaricap;
+alan = PI*(yaricap*yaricap);
+
+printf("Dairenin Cevresi %.2f , Alani %.2f 'dir",cevre,alan);
+
+
+    return 0;
+}
+
+
