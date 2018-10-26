@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int x = 5;
+    int deger;
+
+    printf("Sayi Giriniz:");
+    scanf("%d", &deger);
+
+
+if(deger%x==0)
+{
+    printf("Girdiginiz sayi 5 in katidir");
+}
+else
+{
+    printf("girdiginiz sayi 5 in kati degildir");
+}
+
+    return 0;
+}
