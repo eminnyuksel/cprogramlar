@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main( void )
+{
+	int aylar[12];
+	int i;
+	int toplam=0;
+
+
+	for(i=0;i<12;i++){
+        printf("%2d.Ay",(i+1));
+        scanf("%d",&aylar[i]);
+        }
+        printf("\nGirdiginiz Degerler\n\n");
+        for(i=0;i<12;i++){
+        printf("%2d.Ay icin %2d girdiniz\n",(i+1),aylar[i]);
+
+         toplam += aylar[ i ];
+        }
+
+        printf("Toplam gunesli gun sayisi %d", toplam);
+	return 0;
+}
