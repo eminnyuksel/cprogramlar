@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+//Coded by Surerise
+
+int main(int argc, char *argv[]) {
+		
+int deger=0,sayi=0;
+int sayac=0;
+int toplamtek=0,toplamcift=0;
+int tek=0,cift=0;
+
+printf("Kac tane sayi gireceksin:");
+scanf("%d",&deger);
+
+
+for(sayac=0;sayac<deger;sayac++){
+	printf("Sayi Gir:"); scanf("%d",&sayi);
+	           if(sayi%2==0){
+	               cift++;
+	                      }
+         else {
+ 	         if(sayi%2>0){
+ 	          tek++;
+ 	    }
+	}
+}
+
+
+
+
+printf("Sayilardan %d tanesi cift ,%d tanesi tek\n",cift,tek);
+printf("Cift sayilarin toplami %d,tek sayilarin toplami %d",toplamcift,toplamtek);
+
+	return 0;
+}
